@@ -93,5 +93,5 @@ The system provides a strictly authorized administrative interface accessible di
 │   │   └── user.router.ts
 │   └── utils
 │       └── formatter.ts
-└── tsconfig.ጅሶን
+└── tsconfig.json 
 ```
