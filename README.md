@@ -44,4 +44,53 @@ The system provides a strictly authorized administrative interface accessible di
 
 ## Repository Structure
 
-*(Insert your private repository folder/file structure here)*
+*.
+├── README.md
+├── api
+│   ├── set-webhook.ts
+│   └── webhook.ts
+├── package.json
+├── prisma
+│   └── schema.prisma
+├── public
+│   └── index.html
+├── src
+│   ├── core
+│   │   ├── admin.handler.ts
+│   │   ├── bot.ts
+│   │   ├── faq.handler.ts
+│   │   ├── meta.handler.ts
+│   │   ├── order.handler.ts
+│   │   ├── prisma.ts
+│   │   ├── system.service.ts
+│   │   └── utils.ts
+│   ├── middlewares                                                           │   │   ├── auth.middleware.ts
+│   │   ├── core.middleware.ts
+│   │   ├── forceJoin.middleware.ts
+│   │   ├── rateLimiter.middleware.ts
+│   │   └── security.middleware.ts
+│   ├── modules
+│   │   ├── admin
+│   │   │   ├── admin.handler.ts
+│   │   │   ├── admin.service.ts
+│   │   │   ├── owner.service.ts
+│   │   │   └── player-builder.service.ts
+│   │   ├── automation
+│   │   │   ├── automation.handler.ts
+│   │   │   └── menu.config.ts
+│   │   ├── chat
+│   │   │   └── chat.service.ts
+│   │   ├── commerce
+│   │   │   └── commerce.service.ts
+│   │   ├── formation
+│   │   │   ├── formation.engine.ts
+│   │   │   └── meta.seeder.ts
+│   │   └── player
+│   │       └── player.service.ts
+│   ├── routers
+│   │   ├── admin.router.ts
+│   │   ├── owner.router.ts
+│   │   └── user.router.ts
+│   └── utils
+│       └── formatter.ts
+└── tsconfig.json*
